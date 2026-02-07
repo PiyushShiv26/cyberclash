@@ -1,0 +1,35 @@
+{
+  "name": "cyberclash",
+  "version": "1.0.0",
+  "description": "CyberClash - A secure blog platform",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "NODE_ENV=development node app.js",
+    "prod": "NODE_ENV=production node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "blog",
+    "express",
+    "sqlite"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "body-parser": "^2.2.2",
+    "dotenv": "^16.6.1",
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "morgan": "^1.10.1",
+    "multer": "^2.0.2",
+    "sqlite3": "^5.1.7"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
